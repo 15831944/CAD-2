@@ -1,0 +1,1225 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CAD_PowerLand.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CAD_PowerLand.ico"
+IDR_CAD_POTYPE          ICON    DISCARDABLE     "res\\CAD_PowerLandDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_DRAWTOOLBAR         BITMAP  DISCARDABLE     "res\\draw.bmp"
+IDR_MODIFYTOOLBAR       BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_PROPERTYBAR         BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDR_PARAMETER           BITMAP  DISCARDABLE     "res\\param.bmp"
+IDR_TEMPLATE            BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDR_GRIND_GLASS         BITMAP  DISCARDABLE     "res\\toolbar2.bmp"
+IDB_BITMAP_HORI         BITMAP  DISCARDABLE     "res\\resAddPoint\\hori.bmp"
+IDB_BITMAP_VERT         BITMAP  DISCARDABLE     "res\\resAddPoint\\vert.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\Splsh16.bmp"
+IDR_VIEW_BAR            BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  19, 19
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_SAVE_TO_FILE
+    SEPARATOR
+    BUTTON      ID_UNDO
+    BUTTON      ID_REDO
+    SEPARATOR
+    BUTTON      ID_VIEW_MOVE
+    BUTTON      ID_VIEW_FULL
+    BUTTON      ID_MOVE_ORIGIN
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_DRAWTOOLBAR TOOLBAR DISCARDABLE  20, 18
+BEGIN
+    BUTTON      ID_LINE
+    BUTTON      ID_POLYLINE
+    BUTTON      ID_RECTANGLE
+    BUTTON      ID_ROUNDARC
+    BUTTON      ID_ROUND
+    BUTTON      ID_ELLIPSE
+    BUTTON      ID_SPLINE
+    BUTTON      ID_POINT
+END
+
+IDR_MODIFYTOOLBAR TOOLBAR DISCARDABLE  25, 24
+BEGIN
+    BUTTON      ID_DELETE
+    BUTTON      ID_COPY
+    BUTTON      ID_MOVE
+    BUTTON      ID_MIRROR
+    BUTTON      ID_ROTATE
+    BUTTON      ID_SCALE
+    BUTTON      ID_CHAMFER
+    BUTTON      ID_MATRIX
+    BUTTON      ID_RE_ARRANG
+    BUTTON      ID_MEASURE_LONG
+END
+
+IDR_PROPERTYBAR TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_SHOW_NUM
+    BUTTON      ID_SHOW_ARROW
+    BUTTON      ID_POINT_END
+    BUTTON      ID_POINT_NEAR
+    BUTTON      ID_POINT_FOOT
+    BUTTON      ID_POINT_MID
+    BUTTON      ID_ORTHOGONAL
+END
+
+IDR_PARAMETER TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_PARAM_JISAN
+    BUTTON      ID_PARAM_IN_OUT_GRAPH
+    BUTTON      ID_PARAM_OVER_CUT
+    BUTTON      ID_PROPERTY
+    BUTTON      ID_WORK_FOR
+END
+
+IDR_TEMPLATE TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_BREAK_TWO
+    BUTTON      ID_OVER_CUT
+    BUTTON      ID_SCALE_XY
+    BUTTON      ID_EXTEND_LINE
+    BUTTON      ID_MILL_GROOVES
+    BUTTON      ID_MILL_SIDE
+    BUTTON      ID_ADD_RECT
+    BUTTON      ID_PARALLEL
+    BUTTON      ID_ADD_POINT
+    BUTTON      ID_VERTICAL_LINE
+    BUTTON      ID_SOLID_TO_DASH
+    BUTTON      ID_TRIM
+    BUTTON      ID_MOVE_POINT
+END
+
+IDR_GRIND_GLASS TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_GRIND_GLASS
+    BUTTON      ID_IO_KNIFE
+    BUTTON      ID_SELECT_BEGIN_POS
+    BUTTON      ID_TOGETHER
+    BUTTON      ID_TO_LESS_POINT
+END
+
+IDR_VIEW_BAR TOOLBAR DISCARDABLE  19, 19
+BEGIN
+    BUTTON      ID_VIEW_MOVE
+    BUTTON      ID_VIEW_FULL
+    BUTTON      ID_MOVE_ORIGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "  &File  "
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "&Save as...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "  &Edit  "
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "  &Draw  "
+    BEGIN
+        MENUITEM "Line",                        ID_LINE
+        MENUITEM "Polyline",                    ID_POLYLINE
+        MENUITEM "Rectangle",                   ID_RECTANGLE
+        MENUITEM "Arc",                         ID_ROUNDARC
+        MENUITEM "Circle",                      ID_ROUND
+        MENUITEM "Ellipse",                     ID_ELLIPSE
+        MENUITEM "Point",                       ID_POINT
+    END
+    POPUP "  &Modifiy  "
+    BEGIN
+        POPUP "Mirror&Rotate"
+        BEGIN
+            MENUITEM "Rotate PI",                   ID_ROTATE_180
+            MENUITEM "Rotate PI/2",                 ID_ROTATE_90
+            MENUITEM "Mirror of X",                 ID_SYMMETRY_XAXIS
+            MENUITEM "Mirror of Y",                 ID_SYMMETRY_YAXIS
+            MENUITEM "Mirror of left right",        ID_SYMMETRY_LANDR
+            MENUITEM "Mirror of up down",           ID_SYMMETRY_TANDB
+            MENUITEM "Specified angle rotation",    ID_ROTATE_ANGLE
+        END
+        MENUITEM "Delete",                      ID_DELETE
+        MENUITEM "Copy ",                       ID_COPY
+        MENUITEM "Move",                        ID_MOVE
+        MENUITEM "Mirror",                      ID_MIRROR
+        MENUITEM "Rotate",                      ID_ROTATE
+        MENUITEM "Scale",                       ID_SCALE_XY
+        MENUITEM "Chamfer",                     ID_CHAMFER
+        MENUITEM "Matrix",                      ID_MATRIX
+        MENUITEM "Arrang",                      ID_RE_ARRANG
+        MENUITEM "Grind",                       ID_GRIND_GLASS
+        MENUITEM "IO_Knife",                    ID_IO_KNIFE
+        MENUITEM "Select start",                ID_SELECT_BEGIN_POS
+        MENUITEM "Combine",                     ID_TOGETHER
+        MENUITEM "Flatten",                     ID_TO_LESS_POINT
+        MENUITEM "Interrupted",                 ID_BREAK_TWO
+        MENUITEM "Overcut",                     ID_OVER_CUT
+        MENUITEM "Scale_xy",                    ID_SCALE_XY
+        MENUITEM "Extend",                      ID_EXTEND_LINE
+        MENUITEM "Outline",                     ID_MILL_GROOVES
+        MENUITEM "Cutter compensation",         ID_MILL_SIDE
+        MENUITEM "Add rectangle",               ID_ADD_RECT
+        MENUITEM "Parallel lines",              ID_PARALLEL
+        MENUITEM "Add point",                   ID_ADD_POINT
+        MENUITEM "vertical line",               ID_VERTICAL_LINE
+        MENUITEM "dotted line",                 ID_SOLID_TO_DASH
+        MENUITEM "clip",                        ID_TRIM
+        MENUITEM "Mobile points ",              ID_MOVE_POINT
+    END
+    POPUP "  &Parameter  "
+    BEGIN
+        MENUITEM "Works parameter",             ID_WORK_FOR
+        POPUP "Glass grinding parameters"
+        BEGIN
+            MENUITEM "Edge grinding parameters",    ID_PARAM_JISAN
+            MENUITEM "Enter/back knife parameters", ID_PARAM_IN_OUT_GRAPH
+        END
+        POPUP "Template parameters"
+        BEGIN
+            MENUITEM "Over cut parameters",         ID_PARAM_OVER_CUT
+        END
+        MENUITEM "M code function parameters",  ID_PROPERTY
+    END
+    POPUP "  &Help  "
+    BEGIN
+        MENUITEM "&About docEngish...",         ID_APP_ABOUT
+    END
+    MENUITEM "",                            65535
+END
+
+IDR_MENU_VIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "  &View  "
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Clore Bar",                   ID_VIEW_COLOR
+        MENUITEM "Draw Bar",                    ID_VIEW_DRAW
+        MENUITEM "Modify Bar",                  ID_VIEW_MODIFY
+        MENUITEM "Parameter Bar",               ID_VIEW_PARAM
+        MENUITEM "Dialog poropery",             ID_VIEW_PROPERTY
+        MENUITEM "Dialog Command",              ID_VIEW_COMMAND
+        MENUITEM "View Bar",                    ID_VIEW_VIEW
+        MENUITEM "TemplateBar",                 ID_VIEW_TEMPLATE
+        MENUITEM "GrindGlassBar",               ID_VIEW_GRIND_GLASS
+    END
+END
+
+IDR_MENU_CILENT_RBTNDOW MENU DISCARDABLE 
+BEGIN
+    POPUP "Mirror&Rotate"
+    BEGIN
+        MENUITEM "Rotate PI",                   ID_ROTATE_180
+        MENUITEM "Rotate PI/2",                 ID_ROTATE_90
+        MENUITEM "Mirror of X",                 ID_SYMMETRY_XAXIS
+        MENUITEM "Mirror of Y",                 ID_SYMMETRY_YAXIS
+        MENUITEM "Mirror of up down",           ID_SYMMETRY_LANDR
+        MENUITEM "Mirror of left right",        ID_SYMMETRY_TANDB
+        MENUITEM "Specified angle rotation",    ID_ROTATE_ANGLE
+        MENUITEM " horizontal adjustment",      ID_ACCORDING_TO_LINE_HORI
+        MENUITEM "vertical adjustment",         ID_ACCORDING_TO_LINE_VERT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_DELETE,              VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_REDO,                VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_UNDO,                VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 281, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About CAD_PowerLand"
+FONT 9, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CAD_PowerLand 1.2",IDC_STATIC,49,16,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,49,31,119,8
+    DEFPUSHBUTTON   "OK",IDOK,224,7,50,14,WS_GROUP
+END
+
+IDD_DLG_COMMAND_VIEW DIALOGEX 0, 0, 852, 76
+STYLE DS_MODALFRAME | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_COMMAND,282,59,570,15,NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,2,1,3,74,
+                    WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,7,1,3,74,
+                    WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_RICHEDIT4,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_NUMBER | WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,14,1,838,58
+    EDITTEXT        IDC_EDIT_REMIND,14,59,260,15,ES_READONLY | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+END
+
+IDD_DLG_PROPERTY_DRAW DIALOGEX 0, 0, 108, 242
+STYLE WS_CHILD | WS_THICKFRAME
+FONT 12, "Arial", 0, 0, 0x1
+BEGIN
+    LTEXT           "起点 X:",IDC_STATIC1,6,20,33,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1,44,19,54,12,NOT WS_VISIBLE
+    LTEXT           "起点 Y:",IDC_STATIC2,6,31,33,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT2,44,30,54,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "终点 X:",IDC_STATIC3,6,42,33,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT3,44,41,54,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CONTROL         "终点 X:",IDC_STATIC4,"Static",SS_LEFTNOWORDWRAP | NOT 
+                    WS_VISIBLE | WS_GROUP,6,53,33,11,WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT4,44,52,54,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "起点 X:",IDC_STATIC5,6,64,33,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT5,44,63,54,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "起点 Y:",IDC_STATIC6,6,75,33,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT6,44,74,54,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "终点 X:",IDC_STATIC7,6,86,33,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT7,44,85,54,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    CONTROL         "终点 X:",IDC_STATIC8,"Static",SS_LEFTNOWORDWRAP | NOT 
+                    WS_VISIBLE | WS_GROUP,6,97,33,11,WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT8,44,96,54,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_COLOR,44,122,54,69,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "《==",IDC_BTN_FORWARD,46,6,25,12,NOT WS_VISIBLE
+    PUSHBUTTON      "==》",IDC_BTN_BEHIND,71,6,25,12,NOT WS_VISIBLE
+    CONTROL         "Color Obj",IDC_STATIC9,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,6,124,33,10,WS_EX_ACCEPTFILES
+    CONTROL         "Obj Seque",IDC_STATIC10,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,6,166,33,11,WS_EX_ACCEPTFILES
+    EDITTEXT        IDC_EDIT_SEQUENCE,44,165,54,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,112,108,1
+    PUSHBUTTON      "《==",IDC_BTN_INSERT_BEFORE,46,151,25,12
+    PUSHBUTTON      "==》",IDC_BTN_INSERT_AFTER,71,151,25,12
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,141,108,1
+    PUSHBUTTON      "Change Dir",IDC_BTN_CUTDIR,43,182,52,12
+END
+
+IDD_DLG_COLORTOM DIALOG DISCARDABLE  0, 0, 193, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_COLORCB1,45,22,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORCB2,45,38,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORCB3,45,54,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORCB4,45,70,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORCB5,45,86,32,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cancel",IDC_BTN_CANCLE,144,116,42,18
+    PUSHBUTTON      "Save",IDC_BTN_OK,96,116,42,18
+    EDITTEXT        IDC_EDIT_COLORSB1,81,22,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORSB2,81,38,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORSB3,81,54,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORSB4,81,70,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLORSB5,81,86,32,14,ES_AUTOHSCROLL
+    LTEXT           "up M",IDC_STATIC,50,10,28,9
+    LTEXT           "down M",IDC_STATIC,85,10,28,9
+    PUSHBUTTON      "choice color",IDC_BTN_COLOR1,132,23,52,13
+    PUSHBUTTON      "choice color",IDC_BTN_COLOR2,132,39,52,13
+    PUSHBUTTON      "choice color",IDC_BTN_COLOR3,132,55,52,13
+    PUSHBUTTON      "choice color",IDC_BTN_COLOR4,132,71,52,13
+    PUSHBUTTON      "choice color",IDC_BTN_COLOR5,132,87,52,13
+    EDITTEXT        IDC_EDIT_COLOR_MEAN1,9,21,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLOR_MEAN2,9,37,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLOR_MEAN3,9,53,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLOR_MEAN4,9,69,32,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_COLOR_MEAN5,9,85,32,14,ES_AUTOHSCROLL
+    LTEXT           "name",IDC_STATIC,15,10,28,9
+END
+
+IDD_DLG_MATRIX DIALOG DISCARDABLE  0, 0, 259, 155
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_HORIZONTAL,209,56,37,13
+    EDITTEXT        IDC_EDIT_VERITCAL,209,77,37,13
+    LTEXT           "row",IDC_STATIC,67,58,13,10
+    EDITTEXT        IDC_EDIT_HORIZONTAL_OFFSET,150,56,47,13
+    LTEXT           "rank",IDC_STATIC,67,79,17,10
+    EDITTEXT        IDC_EDIT_VERITCAL_OFFSET,150,77,47,13
+    GROUPBOX        "",IDC_STATIC,64,36,189,66,BS_CENTER
+    PUSHBUTTON      "OK",IDC_BTN_MATRIX_OK,157,128,42,18
+    PUSHBUTTON      "Cancel",IDC_BTN_MATRIX_NO,206,128,42,18
+    EDITTEXT        IDC_EDIT_CREATE_LONG,91,56,47,13,ES_READONLY
+    EDITTEXT        IDC_EDIT_CREATE_WIDE,91,77,47,13,ES_READONLY
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,64,73,189,1
+    LTEXT           "Offset",IDC_STATIC,160,43,26,10
+    LTEXT           "Size",IDC_STATIC,100,43,33,10
+    LTEXT           "amount",IDC_STATIC,213,43,26,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,144,40,1,61
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,202,40,1,61
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,86,40,1,61
+    CONTROL         "optima",IDC_CHECK_ROTATE_MOVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,16,45,12
+    EDITTEXT        IDC_EDIT_YOUHUA_XMOVE,90,15,47,13
+    EDITTEXT        IDC_EDIT_YOUHUA_YMOVE,191,15,47,13
+    GROUPBOX        "",IDC_STATIC,64,6,189,27
+    LTEXT           "   X",IDC_STATIC,68,18,21,10
+    LTEXT           "   Y",IDC_STATIC,169,18,21,10
+    PUSHBUTTON      "get graphics Length and width",IDC_BTN_GET_LONG_WIDE,6,
+                    57,54,31,BS_MULTILINE
+    LTEXT           "mm",IDC_STATIC,165,91,9,9
+    LTEXT           "mm",IDC_STATIC,106,90,9,9
+    LTEXT           "mm",IDC_STATIC,138,17,9,9
+    LTEXT           "mm",IDC_STATIC,239,18,9,9
+END
+
+IDD_DLG_PARAM_GLASS_GRIND DIALOGEX 0, 0, 270, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Save",IDC_BTN_PARAM1_OK,160,199,42,18
+    PUSHBUTTON      "Cancel",IDC_BTN_PARAM1_CANCEL,211,199,42,18
+    GROUPBOX        "Grind parameter",IDC_STATIC,7,7,255,86
+    EDITTEXT        IDC_EDIT_ROUGH_COUNT,72,21,59,13,ES_AUTOHSCROLL
+    LTEXT           "Rouph Count",IDC_STATIC,12,23,49,11,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_ROUGH_SIZE,187,21,59,13,ES_AUTOHSCROLL
+    LTEXT           "Rouph size",IDC_STATIC,135,23,48,11,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_PERFECT_COUNT,72,38,59,13,ES_AUTOHSCROLL
+    LTEXT           "Perfect Count",IDC_STATIC,12,40,56,11,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_PERFECT_SIZE,187,38,59,13,ES_AUTOHSCROLL
+    LTEXT           "Perfect size",IDC_STATIC,135,40,48,11,0,WS_EX_RIGHT
+    LTEXT           "Polish Count",IDC_STATIC,12,57,53,11,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_POLISH_SIZE,188,55,59,13,ES_AUTOHSCROLL
+    LTEXT           "Polish size",IDC_STATIC,136,57,48,11,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_KNIFE_RADIUS,189,72,59,13,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "刀轮直径",IDC_STATIC,149,74,37,11,NOT WS_VISIBLE,
+                    WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_POLISH_COUNT,72,55,59,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CMB_DAOBU,72,73,59,50,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "style:",IDC_STATIC,23,75,41,11,0,WS_EX_RIGHT
+    LTEXT           "mm",IDC_STATIC,250,40,11,9
+    LTEXT           "mm",IDC_STATIC,250,23,11,9
+    LTEXT           "mm",IDC_STATIC,250,57,11,9
+    LTEXT           "mm",IDC_STATIC,245,75,14,9,NOT WS_VISIBLE
+    GROUPBOX        "Close graph direction",IDC_STATIC,8,103,251,65
+    COMBOBOX        IDC_CMB_DIR_CLOCK1,55,118,59,59,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "1",IDC_STATIC_KNIFE1,14,120,37,11,0,WS_EX_RIGHT
+    COMBOBOX        IDC_CMB_DIR_CLOCK2,175,118,59,59,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "2",IDC_STATIC_KNIFE2,134,120,37,11,0,WS_EX_RIGHT
+    COMBOBOX        IDC_CMB_DIR_CLOCK3,55,134,59,59,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "3",IDC_STATIC_KNIFE3,14,136,37,11,0,WS_EX_RIGHT
+    COMBOBOX        IDC_CMB_DIR_CLOCK4,175,134,59,59,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "4",IDC_STATIC_KNIFE4,134,136,37,11,0,WS_EX_RIGHT
+    COMBOBOX        IDC_CMB_DIR_CLOCK5,55,150,59,59,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "5",IDC_STATIC_KNIFE5,14,152,37,11,0,WS_EX_RIGHT
+END
+
+IDD_DLG_PARAM_INOUT_KNIFE DIALOG DISCARDABLE  0, 0, 370, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    CONTROL         "垂直方向",IDC_RADIO_IKNIFE_LINE_VERTICAL,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_GROUP | 
+                    WS_TABSTOP,18,136,44,11
+    CONTROL         "切线方向",IDC_RADIO_IKNIFE_LINE_TANGENT,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_TABSTOP,68,136,
+                    45,11
+    GROUPBOX        "Arc",IDC_STATIC,31,76,120,63
+    GROUPBOX        "Line",IDC_STATIC,30,39,120,29
+    PUSHBUTTON      "Save",IDC_BTN_SAVE_INOUT_KNIFE,261,155,42,18
+    PUSHBUTTON      "Cancel",IDC_BTN_CANCLE_INOUT_KNIFE,311,155,42,18
+    CONTROL         "在起点线段的中心执行进退刀",IDC_CHECK_IO_KNIFE_ISCENTER,
+                    "Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,
+                    28,13,127,10
+    GROUPBOX        "In knife",IDC_STATIC,22,24,139,125
+    LTEXT           "长度:",IDC_STATIC,15,151,24,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_IKNIFE_LINE_LONGPERCENT,57,149,57,14,
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "mm",IDC_STATIC,137,51,8,10
+    EDITTEXT        IDC_EDIT_IKNIFE_LINE_LONG,77,50,57,14,ES_AUTOHSCROLL
+    LTEXT           "半径:",IDC_STATIC,13,165,24,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_IKNIFE_ARC_RADIUSPERCENT,55,163,57,14,
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "%",IDC_STATIC,116,166,8,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_IKNIFE_ARC_RADIUS,78,94,57,14,ES_AUTOHSCROLL
+    LTEXT           "Angel:",IDC_STATIC,34,114,36,10
+    EDITTEXT        IDC_EDIT_IKNIFE_ARC_ANGLE,78,112,57,14,ES_AUTOHSCROLL
+    GROUPBOX        "Arc",IDC_STATIC,217,76,120,63
+    GROUPBOX        "Line",IDC_STATIC,216,39,120,29
+    GROUPBOX        "Out knife",IDC_STATIC,209,24,139,125
+    CONTROL         "垂直方向",IDC_RADIO_OKNIFE_LINE_VERTICAL,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_GROUP | 
+                    WS_TABSTOP,142,130,44,11
+    CONTROL         "切线方向",IDC_RADIO_OKNIFE_LINE_TANGENT,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_TABSTOP,192,130,
+                    45,11
+    LTEXT           "长度:",IDC_STATIC,139,147,24,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_OKNIFE_LINE_LONGPERCENT,181,145,57,14,
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "%",IDC_STATIC,242,148,8,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_OKNIFE_LINE_LONG,263,50,57,14,ES_AUTOHSCROLL
+    LTEXT           "半径:",IDC_STATIC,137,166,24,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_OKNIFE_ARC_RADIUSPERCENT,179,164,57,14,
+                    ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "%",IDC_STATIC,240,167,8,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_OKNIFE_ARC_RADIUS,264,94,57,14,ES_AUTOHSCROLL
+    LTEXT           "Angel:",IDC_STATIC,219,114,36,10
+    EDITTEXT        IDC_EDIT_OKNIFE_ARC_ANGLE,264,112,57,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "--->",IDC_BTN_IOKNIFE_COPY,174,72,24,14
+    LTEXT           "退刀重叠量:",IDC_STATIC,215,13,51,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_OKNIFE_OVERLONG,267,11,57,14,ES_AUTOHSCROLL | 
+                    NOT WS_VISIBLE
+    LTEXT           "Arc radius:",IDC_STATIC,34,97,44,10
+    LTEXT           "Arc radius:",IDC_STATIC,219,96,44,10
+    LTEXT           "mm",IDC_STATIC,137,96,8,10
+    LTEXT           "mm",IDC_STATIC,323,97,8,10
+    LTEXT           "mm",IDC_STATIC,322,52,8,10
+    LTEXT           "deg",IDC_STATIC,137,116,12,10
+    LTEXT           "deg",IDC_STATIC,323,116,13,10
+END
+
+IDD_DLG_PARAM_CLOTH_CUT DIALOG DISCARDABLE  0, 0, 381, 225
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,273,200,42,18
+    PUSHBUTTON      "Cancel",IDCANCEL,322,200,42,18
+    EDITTEXT        IDC_EDIT_OVERCUT_ANGLE,60,21,50,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OVERCUT_LONG,60,38,50,13,ES_AUTOHSCROLL
+    GROUPBOX        "overcut parameter",IDC_STATIC,16,7,111,55
+    LTEXT           "length",IDC_STATIC,20,40,36,11,NOT WS_GROUP
+    LTEXT           "angle ",IDC_STATIC,20,23,37,11
+    EDITTEXT        IDC_EDIT_SCALE_X,178,21,59,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SCALE_Y,178,38,59,13,ES_AUTOHSCROLL
+    GROUPBOX        "scale parameter",IDC_STATIC,135,7,121,55
+    LTEXT           "Y count",IDC_STATIC,138,40,36,11
+    LTEXT           "X count",IDC_STATIC,138,23,37,11
+    CONTROL         "Check1",IDC_CHECK_NEED_OVERCUT1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,24,141,52,13
+    CONTROL         "Check1",IDC_CHECK_NEED_OVERCUT2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,141,52,13
+    CONTROL         "Check1",IDC_CHECK_NEED_OVERCUT4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,24,162,52,13
+    CONTROL         "Check1",IDC_CHECK_NEED_OVERCUT5,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,104,162,52,13
+    CONTROL         "Check1",IDC_CHECK_NEED_OVERCUT3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,184,141,52,13
+    GROUPBOX        "nees overcut style",IDC_STATIC,16,128,240,55
+    LTEXT           "deg",IDC_STATIC,113,23,13,11
+    LTEXT           "mm",IDC_STATIC,112,40,12,11
+    EDITTEXT        IDC_EDIT_CHAMFER,60,81,59,13,ES_AUTOHSCROLL
+    GROUPBOX        "overcut parameter",IDC_STATIC,16,67,111,52
+    LTEXT           "wide",IDC_STATIC,20,83,37,11
+    EDITTEXT        IDC_EDIT_SIMPLIFY,183,81,54,13,ES_AUTOHSCROLL
+    GROUPBOX        "opitima parameter",IDC_STATIC,136,67,120,53
+    LTEXT           "precision",IDC_STATIC,138,83,42,11
+    EDITTEXT        IDC_EDIT_LESS_POINT_RADIUS,183,100,54,13,ES_AUTOHSCROLL
+    LTEXT           "max radius",IDC_STATIC,138,102,42,11
+    LTEXT           "style",IDC_STATIC,21,101,37,11
+    COMBOBOX        IDC_COMBO_CHAMFER_END_STYLE,60,100,59,39,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "mm",IDC_STATIC,239,42,9,9
+    LTEXT           "mm",IDC_STATIC,239,83,9,9
+    LTEXT           "mm",IDC_STATIC,239,103,9,9
+    LTEXT           "mm",IDC_STATIC,239,25,9,9
+    EDITTEXT        IDC_EDIT_MOVE_ORIGIN_X,311,21,51,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MOVE_ORIGIN_Y,311,38,51,13,ES_AUTOHSCROLL
+    GROUPBOX        "move origin",IDC_STATIC,263,7,111,55
+    LTEXT           "Y axis",IDC_STATIC,267,40,36,11
+    LTEXT           "X axis",IDC_STATIC,267,23,37,11
+    LTEXT           "mm",IDC_STATIC,363,23,9,11
+    LTEXT           "mm",IDC_STATIC,363,39,9,11
+    EDITTEXT        IDC_EDIT_DASH_SOLID,311,81,51,13,ES_AUTOHSCROLL
+    GROUPBOX        "turn dash",IDC_STATIC,263,67,111,53
+    LTEXT           "dash solid",IDC_STATIC,267,83,40,11
+    EDITTEXT        IDC_EDIT_DASH_EMPTY,311,100,51,13,ES_AUTOHSCROLL
+    LTEXT           "dash empty",IDC_STATIC,267,102,42,11
+    LTEXT           "mm",IDC_STATIC,363,84,9,11
+    LTEXT           "mm",IDC_STATIC,363,101,9,11
+END
+
+IDD_DLG_WORK_FOR DIALOG DISCARDABLE  0, 0, 294, 279
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    CONTROL         "Glass cutter",IDC_RADIO_GLASSCUT,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE | WS_GROUP,7,9,60,13
+    CONTROL         "Glass grind",IDC_RADIO_GLASSGRIND,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE,237,1,55,13
+    CONTROL         "Template machine",IDC_RADIO_CLOTHCUT,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE,205,14,89,13
+    PUSHBUTTON      "Save",IDC_BTN_SAVE_WORK,180,252,42,18
+    PUSHBUTTON      "Cancel",IDC_BTN_CANCLE_WORK,236,252,42,18
+    EDITTEXT        IDC_EDIT_MACHINE_SIZEX,60,151,51,14,ES_AUTOHSCROLL
+    LTEXT           "Size X:",IDC_STATIC,12,154,44,10
+    LTEXT           "mm",IDC_STATIC,113,153,14,10
+    EDITTEXT        IDC_EDIT_MACHINE_SIZEY,60,168,51,14,ES_AUTOHSCROLL
+    LTEXT           "Size Y:",IDC_STATIC,12,171,44,10
+    LTEXT           "mm",IDC_STATIC,113,170,14,10
+    GROUPBOX        "The machine size ",IDC_STATIC,3,137,133,61
+    CONTROL         "Show the machine size",IDC_CHECK_SHOW_MACHINE_SIZE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,147,115,11
+    GROUPBOX        "Show",IDC_STATIC,148,137,130,61
+    CONTROL         "Display coordinates ",IDC_CHECK_SHOW_COORDINATE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,160,164,112,11
+    CONTROL         "Show Rulers",IDC_CHECK_SHOW_RULER_LINE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,160,181,104,11
+    CONTROL         "Turn keep the original graph",
+                    IDC_CHECK_ROTATESYMMETRY_SAVEOLD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,210,130,16
+    GROUPBOX        "Language",IDC_STATIC,148,201,131,45
+    CONTROL         "Chinese",IDC_RADIO_LANGUAGE_CH,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,160,215,79,11
+    CONTROL         "English",IDC_RADIO_LANGUAGE_EN,"Button",
+                    BS_AUTORADIOBUTTON,160,231,79,11
+    LTEXT           "Send G file path:",IDC_STATIC,8,28,77,12
+    EDITTEXT        IDC_EDIT_FILE_SEND_PATHG,9,43,249,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_CHIOCE_FILEPATHG,263,43,15,14
+    GROUPBOX        "",IDC_STATIC,4,21,280,109,BS_CENTER
+    LTEXT           "Send Dxf file path:",IDC_STATIC,8,61,80,12
+    EDITTEXT        IDC_EDIT_FILE_SEND_PATHDXF,9,76,249,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_CHIOCE_FILEPATHDXF,263,76,15,14
+    CONTROL         "Send Dxf file",IDC_RADIO_FILE_SEND_STYLEDXF,"Button",
+                    BS_AUTORADIOBUTTON,77,96,54,12
+    CONTROL         "Send G file",IDC_RADIO_FILE_SEND_STYLEG,"Button",
+                    BS_AUTORADIOBUTTON,9,96,54,12
+    CONTROL         "Send a file called open name by default",
+                    IDC_CHECK_FILE_SEND_NAME_DEF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,113,178,11
+    LTEXT           "Special Template cutter CAD",IDC_STATIC,152,30,110,11,
+                    NOT WS_VISIBLE
+    LTEXT           "Special glass cutter CAD",IDC_STATIC,87,9,110,11
+END
+
+IDD_DLG_SENDFILE_NAME DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,23,65,42,18
+    PUSHBUTTON      "Cancel",IDCANCEL,119,65,42,18
+    EDITTEXT        IDC_EDIT_SEND_NAME,89,22,77,14,ES_AUTOHSCROLL
+    LTEXT           "save the file name：",IDC_STATIC,4,24,82,12
+END
+
+IDD_DLG_MILL_SIDE DIALOG DISCARDABLE  0, 0, 155, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_MILLSIDE_OK,20,67,50,14
+    PUSHBUTTON      "Cancel",ID_MILLSIDE_CANCEL,82,67,50,14
+    CONTROL         "left",IDC_RADIO_MILLSIDE_LEFT,"Button",
+                    BS_AUTORADIOBUTTON,25,18,38,12
+    CONTROL         "right",IDC_RADIO_MILLSIDE_RIGHT,"Button",
+                    BS_AUTORADIOBUTTON,87,18,38,12
+    LTEXT           "knife repairing distance:",IDC_STATIC,21,35,108,10
+    EDITTEXT        IDC_EDIT_MILLSIDE_DIS,52,49,45,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,98,51,9,9
+END
+
+IDD_DLG_ADD_RECT DIALOG DISCARDABLE  0, 0, 292, 190
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_ADDRECT_OK,85,163,50,14
+    PUSHBUTTON      "Cancel",ID_ADDRECT_CANCEL,160,163,50,14
+    LTEXT           "Please enter a rectangular outer edge distance internal model of the four directions of the shortest distance",
+                    IDC_STATIC,12,6,260,22
+    LTEXT           "up=",IDC_STATIC,109,61,25,10
+    EDITTEXT        IDC_EDIT_ADDRECT_TOP,142,60,42,13,ES_AUTOHSCROLL
+    LTEXT           "left =",IDC_STATIC,32,98,25,10
+    EDITTEXT        IDC_EDIT_ADDRECT_LEFT,65,97,42,13,ES_AUTOHSCROLL
+    LTEXT           "right =",IDC_STATIC,174,96,25,10
+    EDITTEXT        IDC_EDIT_ADDRECT_RIGHT,207,95,42,13,ES_AUTOHSCROLL
+    LTEXT           "down =",IDC_STATIC,106,132,25,10
+    EDITTEXT        IDC_EDIT_ADDRECT_BOTTOM,139,131,42,13,ES_AUTOHSCROLL
+    CONTROL         "left up",IDC_CHECK_CHAMFER_LT,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,11,39,50,12
+    GROUPBOX        "",IDC_STATIC,29,51,233,99,NOT WS_VISIBLE
+    CONTROL         "lefe down",IDC_CHECK_CHAMFER_LB,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,11,152,50,
+                    12
+    CONTROL         "right up",IDC_CHECK_CHAMFER_RT,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,230,40,50,12
+    CONTROL         "right down",IDC_CHECK_CHAMFER_RB,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,230,154,50,
+                    12
+    LTEXT           "radius of chamfer",IDC_STATIC,85,37,71,10,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_ADDRECT_RADIUS,160,36,42,13,ES_AUTOHSCROLL | 
+                    NOT WS_VISIBLE
+    LTEXT           "mm",IDC_STATIC,203,39,9,9,NOT WS_VISIBLE
+    LTEXT           "mm",IDC_STATIC,109,99,9,9
+    LTEXT           "mm",IDC_STATIC,250,97,9,9
+    LTEXT           "mm",IDC_STATIC,185,62,9,9
+    LTEXT           "mm",IDC_STATIC,182,133,9,9
+END
+
+IDD_DLG_PARALLEL DIALOG DISCARDABLE  0, 0, 160, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_PARALLEL_OK,19,58,50,14
+    PUSHBUTTON      "Cancel",ID_PARALLEL_CANCEL,85,58,50,14
+    LTEXT           "Horizontal",IDC_STATIC1,18,18,50,10
+    EDITTEXT        IDC_EDIT_PARALLEL_HORI,69,15,57,13,ES_AUTOHSCROLL
+    LTEXT           "vertical",IDC_STATIC3,18,40,50,10
+    EDITTEXT        IDC_EDIT_PARALLEL_VERT,69,37,57,13,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,127,40,9,9
+    LTEXT           "mm",IDC_STATIC,128,19,9,9
+END
+
+IDD_DLG_ADD_POINT DIALOG DISCARDABLE  0, 0, 183, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 12, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_ADD_POINT_OK,34,64,50,14
+    PUSHBUTTON      "Cancel",ID_ADD_POINT_CANCEL,99,64,50,14
+    CONTROL         200,IDC_STATIC,"Static",SS_BITMAP,9,21,22,21
+    LTEXT           "hori length",IDC_STATIC,41,14,47,12
+    EDITTEXT        IDC_EDIT_LONG_HORI,42,29,41,12,ES_AUTOHSCROLL
+    CONTROL         201,IDC_STATIC,"Static",SS_BITMAP,98,19,22,22
+    LTEXT           "vert length",IDC_STATIC,128,15,48,12
+    EDITTEXT        IDC_EDIT_LONG_VERT,131,29,41,12,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,85,30,9,9
+    LTEXT           "mm",IDC_STATIC,173,30,9,9
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "CAD_PowerLand MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 0\0"
+            VALUE "InternalName", "CAD_PowerLand\0"
+            VALUE "LegalCopyright", "Copyright (C) 2014\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CAD_PowerLand.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "CAD_PowerLand Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_DLG_COMMAND_VIEW, DIALOG
+    BEGIN
+        VERTGUIDE, 14
+    END
+
+    IDD_DLG_PARAM_INOUT_KNIFE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 369
+    END
+
+    IDD_DLG_PARAM_CLOTH_CUT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DLG_WORK_FOR, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+
+    IDD_DLG_ADD_RECT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 189
+    END
+
+    IDD_DLG_PARALLEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_DLG_ADD_POINT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 182
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_SELECT              CURSOR  DISCARDABLE     "res\\draw.cur"
+IDC_NONE                CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_DRAW                CURSOR  DISCARDABLE     "res\\cursor2.cur"
+IDC_BREAK_TWO           CURSOR  DISCARDABLE     "res\\cursor4.cur"
+IDC_MBTN_MOVE           CURSOR  DISCARDABLE     "res\\cursor3.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_PARAM_GLASS_GRIND DLGINIT
+BEGIN
+    IDC_CMB_DAOBU, 0x403, 7, 0
+0xf3d7, 0xb6b5, 0xb9b2, "\000" 
+    IDC_CMB_DAOBU, 0x403, 7, 0
+0xd2d3, 0xb6b5, 0xb9b2, "\000" 
+    IDC_CMB_DIR_CLOCK1, 0x403, 10, 0
+0x6c43, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK1, 0x403, 14, 0
+0x6e41, 0x6974, 0x6c63, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK1, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_CMB_DIR_CLOCK2, 0x403, 10, 0
+0x6c43, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK2, 0x403, 14, 0
+0x6e41, 0x6974, 0x6c63, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK2, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_CMB_DIR_CLOCK3, 0x403, 10, 0
+0x6c43, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK3, 0x403, 14, 0
+0x6e41, 0x6974, 0x6c63, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK3, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_CMB_DIR_CLOCK4, 0x403, 10, 0
+0x6c43, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK4, 0x403, 14, 0
+0x6e41, 0x6974, 0x6c63, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK4, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_CMB_DIR_CLOCK5, 0x403, 10, 0
+0x6c43, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK5, 0x403, 14, 0
+0x6e41, 0x6974, 0x6c63, 0x636f, 0x776b, 0x7369, 0x0065, 
+    IDC_CMB_DIR_CLOCK5, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "CAD_PowerLand"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LINE                 "Draws lines by two points\nLine"
+    ID_VERTICAL_LINE        "Two vertical by drawing a line. Where the first bit line is vertical, which line. If there is no point to fail.\nvertical line"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_POLYLINE             "Through multi-point draw many line segments\nPolyline"
+    ID_RECTANGLE            "Draws Rectangleby two points\nRectangle"
+    ID_ROUNDARC             "Through the two sure radius to determine the arc length\nArc"
+    ID_ROUND                "Through the two point sure radius circle\nCircle"
+    ID_SPLINE               "\nspline"
+    ID_POINT                "\nPoint"
+    ID_ELLIPSE              "\nEllipse"
+    ID_DELETE               "Delete the selected graphics\nDelete"
+    ID_COPY                 "Copy the selected graphics\nCopy "
+    ID_MOVE                 "Move the selected graphics\nMove"
+    ID_MIRROR               "Mirror the selected graphics\nMirror"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ROTATE               "Rotate the selected graphics\nRotate"
+    ID_BREAK_TWO            "click on the graphic interrupted\nInterrupted"
+    ID_RE_ARRANG            "According to the mouse to click Arrang\nArrang"
+    ID_OVER_CUT             "Click on the button for all current graphics if meet the conditions have been cut\nOvercut"
+    ID_SELECT_BEGIN_POS     "The closing of the graphics of selecting starting point\nSelect start"
+    ID_IO_KNIFE             "the selected graphics add in out knife\nIO_Knife"
+    ID_SCALE                "Enlarge or reduce the selected diagonal, after selected diagonal, specify the basis points and scale factor\nScale"
+    ID_TOGETHER             "Click the button to meet the requirements of Combine\nCombine"
+    ID_SAVE_TO_FILE         "sent file to the specified directory\nSend file"
+    ID_EXTEND_LINE          "Click on the starting point or points at the end of the extension of the graphics\nExtend"
+    ID_CHAMFER              "Chamfer the selected graphics\nChamfer"
+    ID_MILL_GROOVES         "Outline the selected graphics \nOutline"
+    ID_UNDO                 "Undo\nUndo"
+    ID_REDO                 "Redo\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRIND_GLASS          "The selected graphic grinding\nGrind"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PROPERTY             "Set M code function parameters\nM code function parameters"
+    ID_SHOW_ARROW           "Display the arrow of cutting the direction \nDisplay direction"
+    ID_POINT_END            "The endpoint to capture the switch\nCapture endpoint "
+    ID_POINT_NEAR           "Capture near point \nCapture near point "
+    ID_ORTHOGONAL           "Orthogonal mode switch\nOrthogonal mode switch"
+    ID_POINT_FOOT           "Capture switch pedal point\nCapture switch pedal point"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SHOW_NUM             "Display sequence of cut\nDisplay sequence"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MILL_SIDE            "Selected graphics with knife\nCutter compensation"
+    ID_TO_LESS_POINT        "The select graphics according to the precision of the parameters set into a flatten graphics\nFlatten"
+    ID_ADD_RECT             "Add rectangle for the selected graphics\nAdd rectangle"
+    ID_MEASURE_LONG         "Measuring the mouse to click the distance between two points\nMeasure length"
+    ID_PARALLEL             "To copy the selected graphics\nParallel lines"
+    ID_ADD_POINT            "Relative to add point\nAdd point"
+    ID_DELETE_MORE_LINE     "Delete repeated graphic\nDelete repeated"
+    ID_VIEW_MOVE            "In the current window mobile view\nMove View"
+    ID_VIEW_FULL            "The scope of graphic display to the full screen\nFull screen"
+    ID_MOVE_ORIGIN          "The graph to move to the origin\nMove to the origin"
+    ID_SCALE_XY             "According to the set value for the parameter of the selected graphic to scale\nScale"
+    ID_SOLID_TO_DASH        "The selected graphic first, and then click the function button. \\ n dotted line"
+    ID_TRIM                 "Click here to function button first. Choosing to cut in line, and then point where trimming line. \\ n clip"
+    ID_MOVE_POINT           "Click here to function button first. The first to move in a little points, the second point is moved to the position.  \\ n Mobile points "
+    ID_MATRIX               "Matrix the selected graphics\nMatrix"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PARAM_IN_OUT_GRAPH   "Set Enter/back knife parameters\nEnter/back knife parameters"
+    ID_PARAM_OVER_CUT       "Set Over cut parameters\nOver cut parameters"
+    ID_WORK_FOR             "You choose the parameters of the industry\nParameter work for"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PARAM_JISAN          "Set Edge grinding parameters\nEdge grinding parameters"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ROTATE_180           "Rotate the selected graphic as base center points to PI\nRotate PI"
+    ID_ROTATE_90            "Put the selRotate the selected graphic as base center points to PI/2\nRotate PI/2"
+    ID_SYMMETRY_XAXIS       "The selected graphics for X axis of symmetry mirror"
+    ID_SYMMETRY_YAXIS       "The selected graphics for Y axis of symmetry mirror"
+    ID_SYMMETRY_LANDR       "The selected graphic around the mirror"
+    ID_SYMMETRY_TANDB       "The selected graphic image up or down"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ROTATE_ANGLE         "The selected graphic to center of rotation Angle"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_POINT_MID            "Midpoint capture switch\nMidpoint capture switch"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CAD_PowerLand.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

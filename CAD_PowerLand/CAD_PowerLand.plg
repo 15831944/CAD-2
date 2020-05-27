@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CAD_PowerLand - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\POWERL~1\LOCALS~1\Temp\RSP193.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/CAD_PowerLand.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\CAD_PowerLand\CAD_PowerLand\CAD_PowerLand.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\POWERL~1\LOCALS~1\Temp\RSP193.tmp" 
+Creating temporary file "C:\DOCUME~1\POWERL~1\LOCALS~1\Temp\RSP194.tmp" with contents
+[
+GDIplus.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/CAD_PowerLand.pdb" /debug /machine:I386 /out:"Debug/CAD_PowerLand.exe" 
+.\Debug\CAD_PowerLand.obj
+.\Debug\CAD_PowerLandDoc.obj
+.\Debug\CAD_PowerLandView.obj
+.\Debug\CreateBase.obj
+.\Debug\CreateEllipse.obj
+.\Debug\CreateKong.obj
+.\Debug\CreateLine.obj
+.\Debug\CreateMCode.obj
+.\Debug\CreatePoint.obj
+.\Debug\CreatePolyline.obj
+.\Debug\CreateRectangle.obj
+.\Debug\CreateRound.obj
+.\Debug\CreateRoundArc.obj
+.\Debug\CreateSpline.obj
+.\Debug\DeleteMoreLine.obj
+.\Debug\DlgAddPoint.obj
+.\Debug\DlgAddRect.obj
+.\Debug\DlgColorToM.obj
+.\Debug\DlgCommandView.obj
+.\Debug\DlgMatrix.obj
+.\Debug\DlgMillSide.obj
+.\Debug\DlgParallel.obj
+.\Debug\DlgParamClothCut.obj
+.\Debug\DlgParamGlassGrind.obj
+.\Debug\DlgParamInoutKnife.obj
+.\Debug\DlgPropertyDraw.obj
+.\Debug\DlgSendFileName.obj
+.\Debug\DlgWorkFor.obj
+.\Debug\Dmcwin.obj
+.\Debug\DrawAddPoint.obj
+.\Debug\DrawArrange.obj
+.\Debug\DrawBase.obj
+.\Debug\DrawBreakTwo.obj
+.\Debug\DrawChamfer.obj
+.\Debug\DrawEllipse.obj
+.\Debug\DrawExtendLine.obj
+.\Debug\DrawLine.obj
+.\Debug\DrawMeasure.obj
+.\Debug\DrawMovePoint.obj
+.\Debug\DrawMoveView.obj
+.\Debug\DrawParallel.obj
+.\Debug\DrawPoint.obj
+.\Debug\DrawPolyline.obj
+.\Debug\DrawRectangle.obj
+.\Debug\DrawRound.obj
+.\Debug\DrawRoundArc.obj
+.\Debug\DrawSelect.obj
+.\Debug\DrawSetBeginPos.obj
+.\Debug\DrawSpline.obj
+.\Debug\DrawTrim.obj
+.\Debug\DrawVerticalLine.obj
+.\Debug\DrawZoomScale.obj
+.\Debug\GlassGrind.obj
+.\Debug\GraphIOKinfe.obj
+.\Debug\GraphScale.obj
+.\Debug\GraphTogether.obj
+.\Debug\MainFrm.obj
+.\Debug\ModifyCopy.obj
+.\Debug\ModifyDelete.obj
+.\Debug\ModifyMirror.obj
+.\Debug\ModifyMove.obj
+.\Debug\ModifyRotate.obj
+.\Debug\OpenDXFCode.obj
+.\Debug\OpenGCode.obj
+.\Debug\OpenPLTCode.obj
+.\Debug\OutputDXFCode.obj
+.\Debug\OutputGCode.obj
+.\Debug\OverCut.obj
+.\Debug\Position.obj
+.\Debug\PropertyBar.obj
+.\Debug\ResizableDlgBar.obj
+.\Debug\Splash.obj
+.\Debug\StdAfx.obj
+.\Debug\ToLessPoint.obj
+.\Debug\TransToGraphList.obj
+.\Debug\TurnMill.obj
+.\Debug\UndoRedo.obj
+.\Debug\ch.res
+.\Harddog.lib
+.\hasp_windows_104780.lib
+.\libhasp_cpp_windows_mtd_msc6.lib
+.\libhasp_cpp_windows_mtd_msc6_d.lib
+.\C_KnifeDll.lib
+.\galil\DMCMLIB.lib
+.\galil\DMC32.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\POWERL~1\LOCALS~1\Temp\RSP194.tmp"
+<h3>Output Window</h3>
+Compiling...
+CAD_PowerLand.cpp
+WARNING: DEPRECATED is not defined for this compiler
+Linking...
+
+
+
+<h3>Results</h3>
+CAD_PowerLand.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
